@@ -53,6 +53,7 @@ button{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        display: inline-block;
 }
 .header-logo-studio {
         color:#2E2F42;
