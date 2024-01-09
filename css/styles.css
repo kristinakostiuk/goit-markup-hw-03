@@ -33,7 +33,7 @@ button{
 .header {
         padding-top: 24px;
         padding-bottom: 24px;
-        border: 1px;
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container{
@@ -42,6 +42,7 @@ button{
 
 .header-navigation {
         display: flex;
+        align-items: center;
 }
 .header-logo {
         color:#4D5AE5;
@@ -51,6 +52,7 @@ button{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
 }
 .header-logo-studio {
         color:#2E2F42;
@@ -73,6 +75,7 @@ button{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 
 }
 
@@ -128,6 +131,7 @@ button{
 .hero {
         background-color: #2E2F42;
         padding: 188px 292px ;
+        padding: 188px 0;
 }
 
 
@@ -160,6 +164,7 @@ button{
         padding: 16px 32px;
         border-radius: 4px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        min-width: 169px;
 
         
 }
@@ -202,7 +207,9 @@ button{
         gap: 24px;
 }
 
-.features-item {}
+.features-item {
+        width: calc((100% - 72) / 4);
+}
 
 .features-subtitle {
         color: #2E2F42;
@@ -218,7 +225,6 @@ button{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        width: calc((100% - 24 * 3) / 4);
 }
 
 /********"team"********/
@@ -226,7 +232,7 @@ button{
 
 .team {
         background-color: #F4F4FD;
-        padding-top: 120px;
+        padding: 120px 0;
 }
 
 .ourteam-title {
@@ -243,7 +249,7 @@ button{
 .team-list {
         display: flex;
         gap: 24px;
-        width: calc((100% - 24px * 3) / 4);
+        width: calc((100% - 72) / 4);
 }
 .team-item {
         background-color: #FFFFFF;
@@ -257,7 +263,9 @@ button{
 
 
 }
-
+.name-profession{
+        padding: 32px 0;
+}
 .team-subtitle {
         color: #2E2F42;
         font-size: 20px;
@@ -284,6 +292,7 @@ button{
 
 .portfolio {
         padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -313,7 +322,12 @@ button{
         
       
 }
-        
+
+.portfolio-container{
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+}
 
 .portfolio-img {
 }
@@ -355,7 +369,7 @@ button{
 
 .footer {
         background: #2E2F42;
-        padding-top: 101px;
+        padding: 100px 0;
 }
 
 .footer-logo {
@@ -366,5 +380,6 @@ button{
         line-height: 1.7;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-bottom: 17.5px;
+        margin-bottom: 16px;
+        display: inline-block;
 }
